@@ -1,0 +1,40 @@
+.sidenav {
+    height: calc(100vh - 60px) !important;
+    width: unset;
+
+    .main-title {
+        margin-top: 0;
+        padding: 10px 0 10px 20px;
+        border-bottom: 1px solid #000;
+        font-weight: 700;
+    }
+
+    .main-chat-name, .secondary-chat-name {
+        margin-top: 0;
+    }
+
+    .secondary-chat-name {
+        margin-left: 30px;
+    }
+
+    .chat-info {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .chat-avatar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #CBD5E1;
+            height: 32px;
+            width: 32px;
+            border-radius: 5px;
+            
+            h5 {
+                margin-top: 0;
+                height: fit-content;
+            }
+        }
+    }
+}

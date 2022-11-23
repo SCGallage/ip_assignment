@@ -1,0 +1,23 @@
+.tab-section-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #000;
+
+    .user-details {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .user-avatar {
+            height: 40px;
+            width: 40px;
+            border-radius: 60%;
+        }
+    
+        .user-title {
+            margin-top: 0;
+            margin-right: 40px;
+            font-weight: 500;
+        }
+    }
+}
