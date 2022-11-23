@@ -1,0 +1,24 @@
+.message-input-wrapper {
+    .message-input {
+        width: 100%;
+        padding: 5px 15px;
+        border-radius: 3px;
+        border: 1px solid rgb(185, 185, 185);
+
+        &:hover, &:focus {
+            border: 1px solid grey;
+        }
+    }
+
+    .icon-set {
+        display: flex;
+
+        .send-icon {
+            margin-left: auto;
+        }
+    }
+}
+
+.clr-form {
+    padding: 6px 0;
+}
