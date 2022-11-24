@@ -14,6 +14,11 @@
         display: flex;
         margin-top: 5px;
 
+        .left {
+            display: flex;
+            gap: 10px;
+        }
+
         img {
             height: 20px;
             width: 20px;

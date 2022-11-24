@@ -2,6 +2,13 @@
     <form *ngIf="type === 'new_message'; else elseBlock" class="clr-form">
         <input type="text" id="basic" placeholder="Type a new message" class="message-input" />
         <div class="icon-set">
+          <div class="left">
+            <img src="/assets/text_edit.svg" alt="text_edit_icon" class="" >
+            <img src="/assets/attachment.svg" alt="attachment_icon" class="" >
+            <img src="/assets/emoji.svg" alt="emoji_icon" class="" >
+            <img src="/assets/gif.svg" alt="gif_icon" class="" >
+            <img src="/assets/sticker.svg" alt="sticker_icon" class="" >
+          </div>
           <img src="/assets/send_icon.svg" alt="send_icon" class="send-icon" >
         </div>
       </form>
