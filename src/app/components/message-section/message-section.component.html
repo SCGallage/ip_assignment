@@ -6,6 +6,10 @@
                     <h6 class="receiver-initials">SG</h6>
                 </div>
                 <div class="message-wrapper">
+                    <div class="message-options">
+                        <img src="/assets/edit.svg" alt="edit_btn" class="edit-btn">
+                        <img src="/assets/trash_bin.svg" alt="trash_icon" class="edit-btn">
+                    </div>
                     <div class="message-details">
                         <h6 class="user-name">Sanka Gallage</h6>
                         <h6 class="message-date-time">Yesterday, 4:54 PM</h6>
@@ -16,10 +20,18 @@
 
             <div class="sender-message">
                 <div class="message-wrapper">
+                    <div class="message-options">
+                        <img src="/assets/edit.svg" alt="edit_btn" class="edit-btn">
+                        <img src="/assets/trash_bin.svg" alt="trash_icon" class="edit-btn">
+                    </div>
                     <div class="message-details">
                         <h6 class="message-date-time">Yesterday, 4:54 PM</h6>
                     </div>
-                    <h5 class="message">Shall we meet up at Colombo?</h5>
+                    <div class="reply-input-container">
+                        <app-message-input [type]="'reply'"></app-message-input>
+                    </div>
+                    <!-- <h5 class="message">Shall we meet up at Colombo?</h5> -->
+
                 </div>
                </div>
 
@@ -28,6 +40,10 @@
                     <h6 class="receiver-initials">SG</h6>
                 </div>
                 <div class="message-wrapper">
+                    <div class="message-options">
+                        <img src="/assets/edit.svg" alt="edit_btn" class="edit-btn">
+                        <img src="/assets/trash_bin.svg" alt="trash_icon" class="edit-btn">
+                    </div>
                     <div class="message-details">
                         <h6 class="user-name">Sanka Gallage</h6>
                         <h6 class="message-date-time">Yesterday, 4:54 PM</h6>
@@ -40,6 +56,19 @@
                         <h5 class="message">Hey how are you?</h5>
                     </div>
                     <h5 class="message">Let's meet up soon!</h5>
+                </div>
+            </div>
+
+            <div class="sender-message">
+                <div class="message-wrapper">
+                    <div class="message-options">
+                        <img src="/assets/edit.svg" alt="edit_btn" class="edit-btn">
+                        <img src="/assets/trash_bin.svg" alt="trash_icon" class="edit-btn">
+                    </div>
+                    <div class="message-details">
+                        <h6 class="message-date-time">Yesterday, 4:54 PM</h6>
+                    </div>
+                    <h5 class="message">Shall we meet up at Colombo?</h5>
                 </div>
             </div>
         </div>

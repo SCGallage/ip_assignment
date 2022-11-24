@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-message-input',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./message-input.component.scss']
 })
 export class MessageInputComponent {
-
+  @Input() type = 'new_message';
 }
