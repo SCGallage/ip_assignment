@@ -1,8 +1,17 @@
 <div class="message-input-wrapper">
-    <form class="clr-form">
+    <form *ngIf="type === 'new_message'; else elseBlock" class="clr-form">
         <input type="text" id="basic" placeholder="Type a new message" class="message-input" />
+        <div class="icon-set">
+          <img src="/assets/send_icon.svg" alt="send_icon" class="send-icon" >
+        </div>
       </form>
-      <div class="icon-set">
-        <img src="/assets/send_icon.svg" alt="send_icon" class="send-icon" >
-      </div>
+      <ng-template #elseBlock>
+        <form class="clr-form">
+        <input type="text" id="basic" value="This is to edit" class="message-input" />
+        <div class="icon-set">
+          <img src="/assets/checkmark.svg" alt="checkmark_icon" class="checkmark-icon" >
+          <img src="/assets/close.svg" alt="close_icon" class="close-icon" >
+        </div>
+      </form></ng-template>
+      
 </div>
